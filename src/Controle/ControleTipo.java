@@ -18,7 +18,7 @@ public class ControleTipo {
 
     public void addTipo(String tipo) {
         if (tipo.equals("")) {
-            JOptionPane.showMessageDialog(null, "Por favor preencha o campo descrição");
+            JOptionPane.showMessageDialog(null, "O campo Descrição não pode estar vazio.");
         } else {
             ModeloTipo modelo = new ModeloTipo();
             modelo.addTipo(tipo);
