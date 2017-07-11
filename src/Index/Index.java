@@ -1,11 +1,12 @@
 package Index;
 
+import Controle.ControleTipo;
 import Controle.ControleUsuario;
 import javax.swing.JOptionPane;
 
 public class Index {
     public static void main(String[] args) {
-        ControleUsuario c = new ControleUsuario();
-        c.login();
+        ControleTipo c = new ControleTipo();
+        c.telaAddTipo();
     }   
 }
